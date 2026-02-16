@@ -4,7 +4,79 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DeleteDynamic",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Lenght",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "SetDynamic",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arrneg",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +105,11 @@
 	},
 	"sources": {
 		"third.sol": {
-			"keccak256": "0x824ea9f087b772e2ab3d72e308e616526c3f0ab0520707491cb21dc786b3ea83",
+			"keccak256": "0x74d6678fb19e0976d57a91c9b8e18b3fb06f461efae4bd08acfb30b0c785193b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://6318ae314ad2ada91560aee9a179a3a7b3f9dce00ed8a4a3d25a52c08564e7eb",
-				"dweb:/ipfs/QmUoUoUZccdA29G2X42WB51u9AQsS19W1JMnx7yuzRhiAn"
+				"bzz-raw://052dd05afe352b40acd4c9d27df4376922f970653c7eac11eead4cd796548a9f",
+				"dweb:/ipfs/QmSnbKCR5Qn1wnM1nmxcdKAfctV4euzqF9scors1hb9HGn"
 			]
 		}
 	},
