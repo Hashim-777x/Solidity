@@ -16,7 +16,7 @@ function getvalue () view public returns(uint){
     if (value == 50) {
         found= true;
     }
-    return value;
+  return  value;
  } 
  return count ;
  }
