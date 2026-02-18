@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getvalue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fifth.sol": "loops"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fifth.sol": {
+			"keccak256": "0x80d15e48bd6e76f8dc779e9f5057fd7945fa2f561ed0e717444a9cdb79618c74",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://73325350c12509981f135a07c9275128b5bd320336d248916c06bc7dfe6d37d5",
+				"dweb:/ipfs/QmQ8RyeJ21Ziqt4W41iLFavwrHREkS4JgSizyfvNY1ByG3"
+			]
+		}
+	},
+	"version": 1
+}

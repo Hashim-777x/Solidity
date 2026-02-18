@@ -34,6 +34,13 @@
 					}
 				],
 				"name": "SetDynamic",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ValueArr",
 				"outputs": [
 					{
 						"internalType": "int256[]",
@@ -41,7 +48,7 @@
 						"type": "int256[]"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -105,11 +112,11 @@
 	},
 	"sources": {
 		"third.sol": {
-			"keccak256": "0x74d6678fb19e0976d57a91c9b8e18b3fb06f461efae4bd08acfb30b0c785193b",
+			"keccak256": "0x9f1d199a751417368980a86182938cfbbdc154dc92b7bc97714e83be60348480",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://052dd05afe352b40acd4c9d27df4376922f970653c7eac11eead4cd796548a9f",
-				"dweb:/ipfs/QmSnbKCR5Qn1wnM1nmxcdKAfctV4euzqF9scors1hb9HGn"
+				"bzz-raw://b05ec798b1de4054f1a47486971e298e876c4b3d8740a67a914a5976e137f81a",
+				"dweb:/ipfs/QmUB3AFYooX4eg3ywnfHk8Hq5tYXEcf6AcjjhwfpSteske"
 			]
 		}
 	},
