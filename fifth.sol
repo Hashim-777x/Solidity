@@ -1,11 +1,10 @@
 // SPDX-License-Identifier: GPL-3.0
-
 pragma solidity >=0.8.2 <0.9.0;
 
 contract loops {
 uint [10]  array = [10,20 ,30 ,40 ,50 ,60 ,70 ,80 ,90 ,100];
 
-function getvalue () view public returns(uint){
+function getvalue () view public returns(uint , uint, bool){
     uint count;
     uint value ;
     bool found;
@@ -16,9 +15,8 @@ function getvalue () view public returns(uint){
     if (value == 50) {
         found= true;
     }
-  return  value;
  } 
- return count ;
+ return (count,value,found) ;
  }
 
 function sum () public view returns (uint){
