@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "PayCoins",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendCoinsAccounts",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"nine.sol": "Pay"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"nine.sol": {
+			"keccak256": "0x76875e4519eb3954394ff388fb04c6356d04cf8ef004d6051a57cfcda60af152",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a45d792e8774240e2c43ef478acf6142b984a77348562b869327edcbfd784b37",
+				"dweb:/ipfs/QmV9XvY1NVDKeRebbkVUi4gLfog4vmd5UmYzsj1oMPNxtF"
+			]
+		}
+	},
+	"version": 1
+}
