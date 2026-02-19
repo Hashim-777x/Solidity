@@ -4,7 +4,7 @@ pragma solidity >=0.8.2 <0.9.0;
 contract loops {
 uint [10]  array = [10,20 ,30 ,40 ,50 ,60 ,70 ,80 ,90 ,100];
 
-function getvalue () view public returns(uint , uint, bool){
+function getvalue () view public returns(uint , uint,bool){
     uint count;
     uint value ;
     bool found;
