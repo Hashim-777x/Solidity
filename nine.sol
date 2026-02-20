@@ -1,23 +1,22 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.2 <0.9.0;
+
 contract Pay {
- 
- address payable user =payable (0xCD28E737097af95A1F4c00AC7837904708164F2d) ;
+    address payable user = payable(0xCD28E737097af95A1F4c00AC7837904708164F2d);
 
- function PayCoins()payable public {
+    function PayCoins() payable public {}
 
- }
+    function getBalance() public view returns (uint) {
+        return address(this).balance;
+    }
 
- function getBalance() public view returns(uint){
-    return address(this).balance;
- }
- function sendCoinsAccounts() public {
-    // user.call{0.0005 ether}("");
-    (bool success, ) = user.call{value: 1 wei}("");
-    require(success, "Transfer failed.");
- }
+    function sendCoinsAccounts() public {
+        uint amount = address(this).balance; // send whatever the contract holds
+        require(amount > 0, "No balance in contract");
+        (bool success, ) = user.call{value: amount}("");
+        require(success, "Transfer failed.");
+    }
 }
-
 
 // contract Pay {
 //     // Ensure the address is correct for the network you are on (Goerli, Sepolia, etc.)
