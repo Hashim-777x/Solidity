@@ -112,11 +112,11 @@
 	},
 	"sources": {
 		"eight.sol": {
-			"keccak256": "0x3c4fb867d39cb35459963134acaf60f94022534db0a99a8d5e1f945e1d7363e9",
+			"keccak256": "0x41e0f9dee6a94caff6f70db1e9f17f84c447c5dd8fb68b579b69447f70815c5f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0c8f100d6695901446b25be49d26be8b89859815f3276a23cbebbf93eba3483d",
-				"dweb:/ipfs/QmVcAcrdn9saHDnQFW4sUY27MCbpDUGdcoKfEZMRTyqwH7"
+				"bzz-raw://4a57206e130c6c61533f42146550e9d0a029f7e5382d455104a0ef215aba3bde",
+				"dweb:/ipfs/QmXD1Y7oSoNwY12aRMp49YPq47E62HCzuaFqe68xuc96St"
 			]
 		}
 	},
