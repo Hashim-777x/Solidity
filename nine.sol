@@ -11,7 +11,7 @@ contract Pay {
     }
 
     function sendCoinsAccounts() public {
-        uint amount = address(this).balance; // send whatever the contract holds
+        uint amount = address(this).balance; // send whatever the contract holds eth or wei or gwei
         require(amount > 0, "No balance in contract");
         (bool success, ) = user.call{value: amount}("");
         require(success, "Transfer failed.");
